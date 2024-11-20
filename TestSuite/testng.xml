@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/SeleniumGrid/untitled">
+        <classes>
+            <class name="org.example.GoogleTest">
+                <methods>
+                    <include name="HomePageCheck"/>
+                </methods>
+            </class>
+            <class name="org.example.RSATest">
+                <methods>
+                    <include name="HomePageCheck"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
